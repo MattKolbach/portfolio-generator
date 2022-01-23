@@ -7,9 +7,9 @@ const printProfileData = profileDataArr => {
         console.log(profileDataArr[i]);
     }
 };
-
-printProfileData(profileDataArgs);
 */
+//printProfileData(profileDataArgs);
+
 /*
 const printProfileData = profileDataArr => {
     profileDataArr.forEach((profileItem) => {
@@ -17,5 +17,9 @@ const printProfileData = profileDataArr => {
     });
   };
   */
-const printProfileData = profileDataArr => 
-profileDataArr.forEach(profileItem => console.log(profileItem));
+//const printProfileData = profileDataArr => 
+//profileDataArr.forEach(profileItem => console.log(profileItem));
+
+//printProfileData(profileDataArgs);
+
+profileDataArgs.forEach(profileItem => console.log(profileItem));
